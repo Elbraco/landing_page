@@ -1,0 +1,193 @@
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap");
+html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button, input, select {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img, video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th {
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.dp-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #017143;
+  clip-path: circle(600px at right 800px);
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  background: #fff;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 30px;
+  background: #017143;
+  color: #fff;
+  border-radius: 40px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+}
+.navbar__link {
+  display: inline-block;
+  color: #333;
+  font-weight: 500;
+  margin-left: 40px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.navbar__link:hover {
+  color: #017143;
+}
+.navbar__logo {
+  position: relative;
+  max-width: 80px;
+}
+.navbar__main {
+  position: relative;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+}
+.content__textbox {
+  position: relative;
+  max-width: 600px;
+}
+.content__heading-2 {
+  color: #333;
+  line-height: 6rem;
+  font-size: 4rem;
+  font-weight: 500;
+}
+.content__starbucks {
+  color: #017143;
+  font-weight: 900;
+  font-size: 5.2rem;
+}
+.content__para {
+  color: #333;
+}
+.content__imgbox {
+  width: 600px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+  margin-top: 50px;
+}
+.content__img {
+  max-width: 340px;
+}
+.content__thumb {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  transform: translateX(-50%);
+  display: flex;
+}
+.content__img-icon {
+  max-width: 60px;
+  display: inline-block;
+  margin: 0 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.content__img-icon:hover {
+  transform: translateY(-15px);
+}
+.content__social {
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  transform: translateY(-50%);
+  flex-direction: column;
+}
+.content__social-link {
+  display: inline-block;
+  margin: 5px 0;
+  transform: scale(0.6);
+  transition: 0.5s;
+  filter: invert(1);
+}
+.content__social-link:hover {
+  transform: scale(0.8);
+}
+
+/*# sourceMappingURL=style.css.map */
